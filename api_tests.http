@@ -1,0 +1,20 @@
+POST http://localhost:5000/
+Content-Type: application/json
+
+["http://4chan.org/","http://golang.org/"]
+
+###
+POST http://localhost:5000/
+Content-Type: application/json
+
+["https://developers.google.com/earth-engine/tutorials/tutorial_api_04"]
+###
+GET http://localhost:5000/status/c98a266a-a7f9-11eb-a2d4-acde48001122
+Accept: application/json
+###
+GET http://localhost:5000/result/c98a266a-a7f9-11eb-a2d4-acde48001122
+Accept: application/json
+
+###
+GET http://localhost:5000/statistics
+###

@@ -1,0 +1,17 @@
+
+POST http://navjotapi.herokuapp.com
+Content-Type: application/json
+
+["http://4chan.org/","http://golang.org/"]
+
+###
+GET http://navjotapi.herokuapp.com/status/cb276e56-a759-11eb-8db4-72688acecf5a
+Accept: application/json
+
+###
+GET http://navjotapi.herokuapp.com/result/cb276e56-a759-11eb-8db4-72688acecf5a
+Accept: application/json
+
+###
+GET https://navjotapi.herokuapp.com/statistics
+###
